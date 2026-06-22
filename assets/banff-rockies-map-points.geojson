@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Banff Rockies Guide Map Points",
+  "features": [
+    {"type": "Feature", "properties": {"name": "Calgary", "type": "city"}, "geometry": {"type": "Point", "coordinates": [-114.0719, 51.0447]}},
+    {"type": "Feature", "properties": {"name": "Canmore", "type": "base"}, "geometry": {"type": "Point", "coordinates": [-115.3595, 51.0890]}},
+    {"type": "Feature", "properties": {"name": "Banff Town", "type": "base"}, "geometry": {"type": "Point", "coordinates": [-115.5708, 51.1784]}},
+    {"type": "Feature", "properties": {"name": "Banff Train Station Parking", "type": "parking"}, "geometry": {"type": "Point", "coordinates": [-115.5739, 51.1810]}},
+    {"type": "Feature", "properties": {"name": "Lake Minnewanka", "type": "lake"}, "geometry": {"type": "Point", "coordinates": [-115.4963, 51.2478]}},
+    {"type": "Feature", "properties": {"name": "Banff Gondola / Sulphur Mountain", "type": "activity"}, "geometry": {"type": "Point", "coordinates": [-115.5556, 51.1487]}},
+    {"type": "Feature", "properties": {"name": "Lake Louise Lakeshore", "type": "lake"}, "geometry": {"type": "Point", "coordinates": [-116.2176, 51.4166]}},
+    {"type": "Feature", "properties": {"name": "Lake Louise Park and Ride / Ski Resort Area", "type": "shuttle"}, "geometry": {"type": "Point", "coordinates": [-116.1773, 51.4422]}},
+    {"type": "Feature", "properties": {"name": "Moraine Lake", "type": "lake"}, "geometry": {"type": "Point", "coordinates": [-116.1860, 51.3217]}},
+    {"type": "Feature", "properties": {"name": "Bow Lake", "type": "viewpoint"}, "geometry": {"type": "Point", "coordinates": [-116.4719, 51.6745]}},
+    {"type": "Feature", "properties": {"name": "Peyto Lake Viewpoint", "type": "viewpoint"}, "geometry": {"type": "Point", "coordinates": [-116.5140, 51.7173]}},
+    {"type": "Feature", "properties": {"name": "Mistaya Canyon", "type": "canyon"}, "geometry": {"type": "Point", "coordinates": [-116.7194, 51.9487]}},
+    {"type": "Feature", "properties": {"name": "Saskatchewan Crossing", "type": "rest stop"}, "geometry": {"type": "Point", "coordinates": [-116.7365, 51.9776]}},
+    {"type": "Feature", "properties": {"name": "Columbia Icefield Discovery Centre", "type": "activity"}, "geometry": {"type": "Point", "coordinates": [-117.2240, 52.2203]}},
+    {"type": "Feature", "properties": {"name": "Tangle Falls", "type": "waterfall"}, "geometry": {"type": "Point", "coordinates": [-117.2865, 52.2687]}},
+    {"type": "Feature", "properties": {"name": "Sunwapta Falls", "type": "waterfall"}, "geometry": {"type": "Point", "coordinates": [-117.6456, 52.5320]}},
+    {"type": "Feature", "properties": {"name": "Athabasca Falls", "type": "waterfall"}, "geometry": {"type": "Point", "coordinates": [-117.8831, 52.6642]}}
+  ]
+}

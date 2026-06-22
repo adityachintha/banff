@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Mountain road service stop">
+  <rect width="640" height="360" fill="#f5fbf8"/>
+  <path d="M0 190 120 82l78 90 91-109 120 139 70-79 161 129v108H0z" fill="#7f988e"/>
+  <path d="M0 240c105-20 171-14 251 3 111 24 228 10 389-6v123H0z" fill="#e7efeb"/>
+  <path d="M252 360c39-74 90-117 156-151 37-19 74-30 111-39l50 190z" fill="#4a5568"/>
+  <path d="M346 360c33-65 75-103 127-131" fill="none" stroke="#f9fafb" stroke-width="9" stroke-dasharray="28 20"/>
+  <rect x="104" y="196" width="105" height="72" rx="4" fill="#ffffff" stroke="#315c4b" stroke-width="6"/>
+  <path d="M122 268v-42h28v42M166 268v-26h25v26" fill="none" stroke="#315c4b" stroke-width="6"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Glacier and icefield mountain scene">
+  <rect width="640" height="360" fill="#eef7fb"/>
+  <path d="M0 205 92 108l70 66 87-110 116 138 62-80 213 152v86H0z" fill="#708981"/>
+  <path d="M182 152 249 64l77 92-55-25-35 52zM395 164l32-42 70 50-55-14-24 34z" fill="#ffffff" opacity=".92"/>
+  <path d="M0 248c104-16 169-6 250-28 73-20 150-24 390 4v136H0z" fill="#f7fbff"/>
+  <path d="M102 260c74 4 124-22 202-16M350 245c61 14 129 7 202 21M191 300c90-4 166 14 260 3" fill="none" stroke="#bdd7e6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 319c98-10 183 1 282-9 127-12 236-5 358 8v42H0z" fill="#dceef5"/>
+</svg>

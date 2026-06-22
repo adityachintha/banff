@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Waterfall in mountain forest">
+  <rect width="640" height="360" fill="#eef7fb"/>
+  <path d="M0 160 88 88l82 64 65-80 95 105 76-70 234 150v103H0z" fill="#6d8c83"/>
+  <path d="M0 214c110-52 187-46 277-21 117 32 210 18 363 1v166H0z" fill="#315c4b"/>
+  <path d="M300 123c-9 57-20 96-50 145-21 35-25 66-17 92h107c-17-35-13-69 13-102 36-46 45-91 38-135z" fill="#eaf8fb"/>
+  <path d="M326 130c-1 47-11 86-33 122-19 32-25 66-18 108h36c-12-45-4-76 18-108 25-36 32-78 25-122z" fill="#67b7c8"/>
+  <path d="M210 322c95-28 178-26 262 0" fill="none" stroke="#dff5f7" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+</svg>

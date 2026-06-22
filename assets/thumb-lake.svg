@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Turquoise mountain lake viewpoint">
+  <rect width="640" height="360" fill="#eaf6fb"/>
+  <path d="M0 190 115 84l92 92 90-118 126 142 86-84 131 128v116H0z" fill="#d8e7e2"/>
+  <path d="M0 210 130 96l78 84 89-120 126 142 86-84 131 125v117H0z" fill="#6f8f88"/>
+  <path d="m162 128 45 52 45-61 44 82-87-21zM380 154l43 48 44-43 29 72-73-29z" fill="#f7fbf9" opacity=".9"/>
+  <path d="M0 235c95-28 172-22 257 3 112 33 217 16 383-13v135H0z" fill="#58b6c6"/>
+  <path d="M0 270c132-23 260 17 393-1 78-11 151-34 247-33v124H0z" fill="#2d899e" opacity=".82"/>
+  <path d="M42 296c95-17 160 9 244 3 88-6 160-28 276-22" fill="none" stroke="#dff5f7" stroke-width="8" opacity=".55"/>
+</svg>

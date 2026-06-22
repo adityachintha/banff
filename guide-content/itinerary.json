@@ -1,0 +1,235 @@
+{
+  "tripTitle": "Rockies Route Planner",
+  "guideTitle": "Banff + Rockies Offline Guide",
+  "subtitle": "Calgary -> Canmore -> Banff -> Lake Louise -> Icefields Parkway -> Jasper Area",
+  "dates": "",
+  "brand": "EscapeWith.Ady",
+  "handle": "@escapewith.ady",
+  "route": [
+    "Toronto -> Calgary",
+    "Calgary -> Canmore",
+    "Canmore -> Banff",
+    "Canmore -> Moraine Lake / Lake Louise",
+    "Canmore -> Icefields Parkway / Columbia Icefield",
+    "Icefields/Jasper area -> Calgary",
+    "Calgary -> Airport"
+  ],
+  "stays": [
+    "Calgary: arrival and departure buffer",
+    "Canmore Inn & Suites: main Banff base",
+    "The Crossing / Icefields / Jasper area: one night around Icefields Parkway",
+    "Calgary before flying out"
+  ],
+  "activities": [
+    {
+      "name": "Lake Minnewanka Cruise",
+      "area": "Banff",
+      "bookUrl": "https://www.banffjaspercollection.com/attractions/lake-minnewanka-cruise/",
+      "note": "Book ahead and verify parking/transit before final use."
+    },
+    {
+      "name": "Open Top Touring",
+      "area": "Banff",
+      "bookUrl": "https://www.banffjaspercollection.com/attractions/open-top-touring/",
+      "note": "Use as an easy orientation activity when you want less driving."
+    },
+    {
+      "name": "Banff Gondola",
+      "area": "Sulphur Mountain",
+      "bookUrl": "https://www.banffjaspercollection.com/attractions/banff-gondola/",
+      "note": "Good for scale, views, and weather-dependent summit time."
+    },
+    {
+      "name": "Lake Louise / Moraine Lake Shuttle",
+      "area": "Lake Louise",
+      "bookUrl": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise",
+      "note": "Verify pickup point, ticket type, parking lot, and return rules."
+    },
+    {
+      "name": "Columbia Icefield Adventure / Skywalk",
+      "area": "Icefields Parkway",
+      "bookUrl": "https://www.banffjaspercollection.com/attractions/columbia-icefield/",
+      "note": "Verify check-in location, weather, road conditions, and ticket details."
+    },
+    {
+      "name": "Kananaskis Helicopter Tour",
+      "area": "Kananaskis / Canmore area",
+      "bookUrl": "https://www.google.com/search?q=Kananaskis+helicopter+tour+booking",
+      "note": "Use your confirmed operator link; verify base address and pass rules."
+    },
+    {
+      "name": "Calgary Hot Air Balloon",
+      "area": "Calgary area",
+      "bookUrl": "https://www.google.com/search?q=Calgary+hot+air+balloon+booking",
+      "note": "Weather-dependent; use your confirmed operator link."
+    },
+    {
+      "name": "Calgary Circus / Event",
+      "area": "Calgary",
+      "bookUrl": "https://www.showpass.com/",
+      "note": "Use the exact event ticket provider from your booking confirmation."
+    }
+  ],
+  "foodStops": [
+    {
+      "area": "Calgary",
+      "coffee": ["Monogram Coffee", "Phil & Sebastian Coffee Roasters"],
+      "hangouts": ["Inglewood", "East Village", "17th Avenue SW"],
+      "food": ["Ten Foot Henry", "Major Tom", "Shokunin", "Nupo", "Lulu Bar", "Calcutta Cricket Club", "Rouge"],
+      "bars": ["Major Tom", "Lulu Bar", "Proof", "Shelter"],
+      "note": "Best city stop for proper meals, coffee, supplies, and a relaxed night before or after the mountains."
+    },
+    {
+      "area": "Canmore",
+      "coffee": ["Eclipse Coffee Roasters", "Communitea Cafe", "Beamer's Coffee Bar"],
+      "hangouts": ["Main Street Canmore", "Policeman's Creek boardwalk", "The Grizzly Paw patio"],
+      "food": ["Rocky Mountain Flatbread", "The Grizzly Paw Pub", "Sauvage", "Tavern 1883", "BLAKE"],
+      "bars": ["The Grizzly Paw Brewing Company", "Tavern 1883", "Where The Buffalo Roam Saloon"],
+      "note": "Use Canmore for calmer dinners and coffee breaks when Banff is too packed."
+    },
+    {
+      "area": "Banff",
+      "coffee": ["Whitebark Cafe", "Wild Flour Bakery", "Good Earth Coffeehouse"],
+      "hangouts": ["Banff Avenue", "Bow River walk", "Rundle Bar", "Park Distillery"],
+      "food": ["Lupo", "Bluebird", "Park Distillery", "Chuck's Steakhouse", "Sky Bistro", "Tooloulou's", "The Maple Leaf"],
+      "bars": ["Park Distillery", "Three Bears Brewery", "Rundle Bar", "High Rollers"],
+      "note": "Check NoWaitsy before lunch, dinner, coffee runs, and post-gondola food plans."
+    },
+    {
+      "area": "Lake Louise / Moraine Lake",
+      "coffee": ["Trailhead Cafe", "Guide's Pantry", "Lake Agnes Tea House when hiking season allows"],
+      "hangouts": ["Lake Louise lakeshore", "Fairmont Chateau Lake Louise lounges", "Lake Agnes Tea House"],
+      "food": ["Lakeview Lounge", "Fairview Bar & Restaurant", "Alpine Social", "The Station Restaurant", "Plain of Six Glaciers Tea House when open"],
+      "bars": ["Alpine Social", "Lakeview Lounge"],
+      "note": "Food is limited and can be reservation-heavy. Pack snacks and verify seasonal tea house openings."
+    },
+    {
+      "area": "Icefields Parkway",
+      "coffee": ["Pack coffee/snacks before leaving Canmore", "Saskatchewan Crossing cafe if open", "Columbia Icefield Discovery Centre cafe if open"],
+      "hangouts": ["Bow Lake pullout", "Peyto Lake viewpoint", "Columbia Icefield Discovery Centre"],
+      "food": ["The Crossing Resort", "Columbia Icefield Discovery Centre", "Packed lunch"],
+      "bars": ["The Crossing Resort pub/lounge if open"],
+      "note": "Services are sparse. Treat every open washroom, fuel stop, and food stop as useful."
+    },
+    {
+      "area": "Jasper area",
+      "coffee": ["Bear's Paw Bakery", "Coco's Cafe", "Sunhouse Cafe"],
+      "hangouts": ["Downtown Jasper", "Patricia Street", "Jasper Brewing Company"],
+      "food": ["Jasper Brewing Company", "Tekarra Restaurant", "Syrahs of Jasper", "Evil Dave's Grill", "The Raven Bistro"],
+      "bars": ["Jasper Brewing Company", "The De'd Dog Bar & Grill", "The Emerald Lounge"],
+      "note": "Verify current openings and road access, especially if your route only reaches the Jasper corridor."
+    }
+  ],
+  "days": [
+    {
+      "day": "Arrival Day",
+      "date": "",
+      "route": "Toronto -> Calgary",
+      "mainPlan": ["Travel to Calgary", "Settle in near your stay"],
+      "driveNotes": ["Settle in near Calgary and keep the evening easy."],
+      "parkingShuttleNotes": ["Verify hotel parking and airport pickup details before leaving Toronto."],
+      "whatToSee": ["Arrival buffer day. Keep expectations low and prioritize sleep."],
+      "foodWashroomNote": "Eat near the hotel or airport corridor so the first travel day stays simple.",
+      "backupOption": "If delayed, skip anything extra and protect the next morning.",
+      "offlineReminder": "Screenshot hotel address, confirmation number, and rental car details.",
+      "stay": "Calgary"
+    },
+    {
+      "day": "Calgary Day",
+      "date": "",
+      "route": "Calgary",
+      "mainPlan": ["Calgary hot air balloon", "Calgary circus / event"],
+      "bookingLinks": ["Calgary Hot Air Balloon", "Calgary Circus / Event"],
+      "driveNotes": ["Airport to balloon: 20-30 min", "Balloon to city: 20-25 min", "Stay to circus: 15-25 min"],
+      "parkingShuttleNotes": ["Verify operator arrival point, weather policy, and parking instructions the day before."],
+      "whatToSee": ["Keep the middle of the day flexible for Calgary food, coffee, or rest."],
+      "foodWashroomNote": "Use Calgary as the easiest day for meals, supplies, fuel, and last-minute errands.",
+      "backupOption": "If balloon timing changes, move city exploring into the open window.",
+      "offlineReminder": "Save activity confirmations and addresses offline.",
+      "stay": "Calgary"
+    },
+    {
+      "day": "Canmore Transfer Day",
+      "date": "",
+      "route": "Calgary -> Canmore",
+      "mainPlan": ["Kananaskis helicopter tour", "Transfer to Canmore"],
+      "bookingLinks": ["Kananaskis Helicopter Tour"],
+      "driveNotes": ["Calgary to Banff/Canmore area: around 1.5 hr", "Banff to heli: around 1 hr", "Heli to Canmore: around 30 min"],
+      "parkingShuttleNotes": ["Verify heli base address, check-in time, and whether a Kananaskis Conservation Pass applies to your stops."],
+      "whatToSee": ["Use the drive as the transition into mountain mode. Do not overfill the afternoon before the heli tour."],
+      "foodWashroomNote": "Eat before leaving Calgary or in Canmore before check-in. Carry snacks for schedule slips.",
+      "backupOption": "If weather affects the heli tour, make Canmore the calm scenic backup: river walk, viewpoints, dinner.",
+      "offlineReminder": "Download Calgary, Canmore, Banff, and Kananaskis offline map areas.",
+      "stay": "Canmore Inn & Suites",
+      "sleepNote": "Around 10 PM"
+    },
+    {
+      "day": "Banff Activity Day",
+      "date": "",
+      "route": "Canmore -> Banff",
+      "mainPlan": ["Lake Minnewanka Cruise", "Lunch break", "Open Top Touring", "Banff Gondola"],
+      "bookingLinks": ["Lake Minnewanka Cruise", "Open Top Touring", "Banff Gondola"],
+      "driveNotes": ["Leave Canmore early enough for Banff traffic, parking, and cruise check-in."],
+      "parkingShuttleNotes": ["Verify Lake Minnewanka parking or transit conditions and Banff Eco-Transit Hub details before final use."],
+      "whatToSee": ["Lake Minnewanka for water and mountain calm", "Open Top Bus for easy orientation", "Banff Gondola for scale, boardwalk views, and golden-hour energy"],
+      "foodWashroomNote": "Plan food before the afternoon stack. Downtown Banff gets crowded fast.",
+      "backupOption": "If the day feels too packed, protect the cruise and gondola, then make the bus optional.",
+      "offlineReminder": "Screenshot activity tickets and keep Banff town parking info saved.",
+      "stay": "Canmore"
+    },
+    {
+      "day": "Lake Louise + Moraine Lake Day",
+      "date": "",
+      "route": "Canmore -> Lake Louise / Moraine Lake",
+      "mainPlan": ["Moraine Lake via shuttle", "Lake Louise via shuttle", "Flexible return"],
+      "bookingLinks": ["Lake Louise / Moraine Lake Shuttle"],
+      "driveNotes": ["This is an early-start shuttle day. Build in time for darkness, parking, check-in, and wrong-turn recovery."],
+      "parkingShuttleNotes": ["Verify exact shuttle pickup point, parking lot, check-in rules, and return window before the trip."],
+      "whatToSee": ["Moraine Lake first-light views", "Lake Louise lakeshore walk", "Optional cafe/rest window if crowds allow"],
+      "foodWashroomNote": "Pack breakfast, water, and snacks. Do not depend on finding food exactly when hungry.",
+      "backupOption": "If shuttle timing fails, use Lake Louise village/nearby viewpoints or return to Canmore for a calmer mountain day.",
+      "offlineReminder": "Screenshot shuttle reservations and pickup maps. Expect weak/no signal around Moraine Lake.",
+      "stay": "Canmore"
+    },
+    {
+      "day": "Icefields Parkway Day",
+      "date": "",
+      "route": "Canmore -> Columbia Icefield / Icefields Parkway",
+      "mainPlan": ["Peyto Lake", "Columbia Icefield Adventure / Skywalk", "Optional scenic stops"],
+      "bookingLinks": ["Columbia Icefield Adventure / Skywalk"],
+      "driveNotes": ["2.5-3 hrs one way depending on stops"],
+      "parkingShuttleNotes": ["Verify Icefield Explorer check-in location, parking, weather, and road conditions before the day starts."],
+      "whatToSee": ["Peyto Lake", "Bow Lake", "Columbia Icefield", "Mistaya Canyon if timing works"],
+      "foodWashroomNote": "Fuel and stock snacks before the Parkway. Services are limited and spaced out.",
+      "backupOption": "If weather is poor, reduce stops and prioritize safe driving plus the booked Icefield activity.",
+      "offlineReminder": "Download Icefields Parkway and Jasper offline maps. Do not rely on cell signal.",
+      "stay": "Icefields / Jasper area / The Crossing"
+    },
+    {
+      "day": "Return to Calgary Day",
+      "date": "",
+      "route": "Icefields/Jasper area -> Calgary",
+      "mainPlan": ["Scenic stops", "Optional Zipline Mount Norquay only if timing works"],
+      "driveNotes": ["4.5-5.5 hrs depending on route and stops"],
+      "parkingShuttleNotes": ["Keep stops flexible and verify road conditions before committing to side activities."],
+      "whatToSee": ["Use the drive as the scenic reset day. Stop only where timing and weather cooperate."],
+      "foodWashroomNote": "Plan meals around known service points rather than assuming options will appear.",
+      "backupOption": "Skip Zipline Mount Norquay if the drive runs long or weather turns.",
+      "offlineReminder": "Keep Calgary hotel and airport route saved offline before leaving mountain areas.",
+      "stay": "Calgary"
+    },
+    {
+      "day": "Airport Day",
+      "date": "",
+      "route": "Calgary -> Airport",
+      "mainPlan": ["Fly out"],
+      "driveNotes": ["Keep this day clean. Avoid mountain driving unless absolutely necessary."],
+      "parkingShuttleNotes": ["Verify rental car return timing, airport parking/rideshare plan, and terminal details."],
+      "whatToSee": ["Use any spare time for a simple Calgary breakfast or coffee near the airport."],
+      "foodWashroomNote": "Eat before airport security if timing is tight.",
+      "backupOption": "If flight time changes, stay close to Calgary rather than adding a distant detour.",
+      "offlineReminder": "Screenshot boarding pass, rental return address, and flight details.",
+      "stay": "Departure"
+    }
+  ]
+}

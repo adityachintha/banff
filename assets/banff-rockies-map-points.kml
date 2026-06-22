@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Banff Rockies Guide Map Points</name>
+    <Placemark><name>Calgary</name><Point><coordinates>-114.0719,51.0447,0</coordinates></Point></Placemark>
+    <Placemark><name>Canmore</name><Point><coordinates>-115.3595,51.0890,0</coordinates></Point></Placemark>
+    <Placemark><name>Banff Town</name><Point><coordinates>-115.5708,51.1784,0</coordinates></Point></Placemark>
+    <Placemark><name>Banff Train Station Parking</name><Point><coordinates>-115.5739,51.1810,0</coordinates></Point></Placemark>
+    <Placemark><name>Lake Minnewanka</name><Point><coordinates>-115.4963,51.2478,0</coordinates></Point></Placemark>
+    <Placemark><name>Banff Gondola / Sulphur Mountain</name><Point><coordinates>-115.5556,51.1487,0</coordinates></Point></Placemark>
+    <Placemark><name>Lake Louise Lakeshore</name><Point><coordinates>-116.2176,51.4166,0</coordinates></Point></Placemark>
+    <Placemark><name>Lake Louise Park and Ride / Ski Resort Area</name><Point><coordinates>-116.1773,51.4422,0</coordinates></Point></Placemark>
+    <Placemark><name>Moraine Lake</name><Point><coordinates>-116.1860,51.3217,0</coordinates></Point></Placemark>
+    <Placemark><name>Bow Lake</name><Point><coordinates>-116.4719,51.6745,0</coordinates></Point></Placemark>
+    <Placemark><name>Peyto Lake Viewpoint</name><Point><coordinates>-116.5140,51.7173,0</coordinates></Point></Placemark>
+    <Placemark><name>Mistaya Canyon</name><Point><coordinates>-116.7194,51.9487,0</coordinates></Point></Placemark>
+    <Placemark><name>Saskatchewan Crossing</name><Point><coordinates>-116.7365,51.9776,0</coordinates></Point></Placemark>
+    <Placemark><name>Columbia Icefield Discovery Centre</name><Point><coordinates>-117.2240,52.2203,0</coordinates></Point></Placemark>
+    <Placemark><name>Tangle Falls</name><Point><coordinates>-117.2865,52.2687,0</coordinates></Point></Placemark>
+    <Placemark><name>Sunwapta Falls</name><Point><coordinates>-117.6456,52.5320,0</coordinates></Point></Placemark>
+    <Placemark><name>Athabasca Falls</name><Point><coordinates>-117.8831,52.6642,0</coordinates></Point></Placemark>
+  </Document>
+</kml>
