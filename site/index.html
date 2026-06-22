@@ -30,9 +30,46 @@
     </svg>
 
     <header class="site-header">
-      <p class="brand">EscapeWith.Ady | <a href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">@escapewith.ady</a></p>
-      <h1>Banff + Rockies Offline Guide</h1>
-      <p class="subtitle">Calgary -> Canmore -> Banff -> Lake Louise -> Icefields Parkway -> Jasper Area</p>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="brand">EscapeWith.Ady | <a href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">@escapewith.ady</a></p>
+          <span class="eyebrow">Offline travel operating system</span>
+          <h1>Banff + Rockies Offline Guide</h1>
+          <p class="hero-summary">A polished route planner with bookable activity links, offline prep, food decisions, map downloads, and verification checkpoints in one clean SaaS-style guide.</p>
+          <ul class="hero-route" aria-label="Route overview">
+            <li>Calgary</li>
+            <li>Canmore</li>
+            <li>Banff</li>
+            <li>Lake Louise</li>
+            <li>Icefields Parkway</li>
+            <li>Jasper Area</li>
+          </ul>
+        </div>
+        <aside class="hero-panel" aria-label="Guide snapshot">
+          <div class="hero-panel-top">
+            <span class="status-pill">Ready for offline use</span>
+            <span class="mini-label">Guide v1</span>
+          </div>
+          <div class="metric-grid" aria-label="Guide metrics">
+            <div>
+              <strong>8</strong>
+              <span>Day modules</span>
+            </div>
+            <div>
+              <strong>10</strong>
+              <span>Map pins</span>
+            </div>
+            <div>
+              <strong>6</strong>
+              <span>Food zones</span>
+            </div>
+          </div>
+          <div class="hero-task-list">
+            <span>Before you go</span>
+            <p>Download maps, save reservations, verify rules, then choose the day modules that match your trip.</p>
+          </div>
+        </aside>
+      </div>
       <!-- Weather widget paused for now.
       <section class="weather-panel no-print" aria-labelledby="weather-heading">
         <div class="weather-panel-header">
@@ -62,33 +99,36 @@
         </div>
       </section>
       -->
-      <p class="note">Pick the days that fit your trip. Save this guide offline before you go.</p>
+      <p class="note">Pick your days, save it offline, and go.</p>
       <div class="action-row no-print">
-        <a class="button button-secondary" href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">Follow on Instagram</a>
         <button class="button" type="button" onclick="window.print()">Download as PDF</button>
+        <a class="button button-secondary" href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">Follow on Instagram</a>
       </div>
-      <p class="print-hint no-print">This opens your browser print dialog. Choose "Save as PDF" to download the complete guide.</p>
     </header>
 
-    <nav class="tabs no-print" aria-label="Guide sections">
-      <a href="#plan">Start</a>
-      <a href="#days">Itinerary</a>
-      <a href="#book">Bookings</a>
-      <a href="#food">Food</a>
-      <a href="#maps">Maps</a>
-      <a href="#pack">Pack</a>
-      <a href="#nowaitsy">NoWaitsy</a>
-      <a href="#verify">Verify</a>
-    </nav>
+    <div class="guide-shell">
+      <nav class="tabs no-print" aria-label="Guide sections">
+        <span class="tabs-label">Guide Index</span>
+        <a href="#plan">Start</a>
+        <a href="#days">Itinerary</a>
+        <a href="#book">Bookings</a>
+        <a href="#food">Food</a>
+        <a href="#maps">Maps</a>
+        <a href="#pack">Pack</a>
+        <a href="#nowaitsy">NoWaitsy</a>
+        <a href="#verify">Verify</a>
+      </nav>
 
-    <main id="main-content">
+      <main id="main-content">
       <section id="plan" class="page-section page-section-cool">
+        <p class="section-kicker">Start here</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-info"></use></svg> How to use this guide</h2>
         <p>This is a route-based planner. Use the day modules in order, or pick only the days that match your trip. Download offline maps, screenshot bookings, and verify parking, shuttle, pass, road, and activity rules before final use.</p>
         <div class="callout">Follow <a href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">@escapewith.ady</a> for real travel routes, parking tips, and Banff guides.</div>
       </section>
 
       <section class="page-section">
+        <p class="section-kicker">Prep system</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Offline prep checklist</h2>
         <ul class="checklist list-check">
           <li>Download maps for Calgary, Canmore, Banff, Lake Louise, Icefields Parkway, and Jasper.</li>
@@ -101,97 +141,96 @@
       </section>
 
       <section class="page-section">
+        <p class="section-kicker">Route dashboard</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-route"></use></svg> Route overview</h2>
         <div class="route-overview">
-          <div class="route-map-panel" aria-label="Embedded Banff and Rockies route map">
-            <iframe
-              title="OpenStreetMap route overview for Calgary, Canmore, Banff, Lake Louise, Icefields Parkway, and Jasper area"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-118.15%2C50.88%2C-113.78%2C52.82&amp;layer=mapnik"
-              loading="lazy">
-            </iframe>
-            <svg class="route-map-overlay" viewBox="0 0 920 430" role="img" aria-labelledby="route-map-title route-map-desc">
-              <title id="route-map-title">Banff and Rockies route points</title>
-              <desc id="route-map-desc">Approximate route from Calgary through Canmore, Banff, Lake Louise, Moraine Lake, Icefields Parkway, Columbia Icefield, and Jasper-area waterfalls.</desc>
-              <path class="map-route route-main" d="M735 340 C655 318 595 296 545 266 C498 238 455 214 398 192 C355 176 324 164 284 152 C258 144 238 138 214 128 C194 119 174 108 154 94" />
-              <path class="map-route route-side" d="M545 266 C514 246 480 230 438 213" />
-              <path class="map-route route-return" d="M154 94 C214 166 288 236 394 286 C496 334 610 356 735 340" />
-              <g class="map-pin map-pin-start" transform="translate(735 340)">
-                <circle r="12"></circle><text y="4">1</text>
-              </g>
-              <g class="map-pin" transform="translate(545 266)">
-                <circle r="12"></circle><text y="4">2</text>
-              </g>
-              <g class="map-pin" transform="translate(500 238)">
-                <circle r="12"></circle><text y="4">3</text>
-              </g>
-              <g class="map-pin" transform="translate(438 213)">
-                <circle r="12"></circle><text y="4">4</text>
-              </g>
-              <g class="map-pin" transform="translate(466 250)">
-                <circle r="12"></circle><text y="4">5</text>
-              </g>
-              <g class="map-pin map-pin-scenic" transform="translate(358 178)">
-                <circle r="10"></circle><text y="4">6</text>
-              </g>
-              <g class="map-pin map-pin-scenic" transform="translate(326 162)">
-                <circle r="10"></circle><text y="4">7</text>
-              </g>
-              <g class="map-pin map-pin-scenic" transform="translate(274 139)">
-                <circle r="10"></circle><text y="4">8</text>
-              </g>
-              <g class="map-pin map-pin-scenic" transform="translate(214 128)">
-                <circle r="10"></circle><text y="4">9</text>
-              </g>
-              <g class="map-pin map-pin-scenic" transform="translate(154 94)">
-                <circle r="10"></circle><text y="4">10</text>
-              </g>
-            </svg>
-            <div class="route-map-caption">
-              <strong>Offline note:</strong> use the map downloads below for exact importable pins. This embed is for quick orientation.
+          <div class="route-map-stack">
+            <div class="route-map-panel" aria-label="Embedded Banff and Rockies route map">
+              <iframe
+                title="OpenStreetMap route overview for Calgary, Canmore, Banff, Lake Louise, Icefields Parkway, and Jasper area"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-118.15%2C50.88%2C-113.78%2C52.82&amp;layer=mapnik"
+                loading="lazy">
+              </iframe>
+              <svg class="route-map-overlay" viewBox="0 0 920 430" role="img" aria-labelledby="route-map-title route-map-desc">
+                <title id="route-map-title">Banff and Rockies route points</title>
+                <desc id="route-map-desc">Approximate route from Calgary through Canmore, Banff, Lake Louise, Moraine Lake, Icefields Parkway, Columbia Icefield, and Jasper-area waterfalls.</desc>
+                <path class="map-route route-main" d="M735 340 C655 318 595 296 545 266 C498 238 455 214 398 192 C355 176 324 164 284 152 C258 144 238 138 214 128 C194 119 174 108 154 94" />
+                <path class="map-route route-side" d="M545 266 C514 246 480 230 438 213" />
+                <path class="map-route route-return" d="M154 94 C214 166 288 236 394 286 C496 334 610 356 735 340" />
+                <g class="map-pin map-pin-start" transform="translate(735 340)">
+                  <circle r="12"></circle><text y="4">1</text>
+                </g>
+                <g class="map-pin" transform="translate(545 266)">
+                  <circle r="12"></circle><text y="4">2</text>
+                </g>
+                <g class="map-pin" transform="translate(500 238)">
+                  <circle r="12"></circle><text y="4">3</text>
+                </g>
+                <g class="map-pin" transform="translate(438 213)">
+                  <circle r="12"></circle><text y="4">4</text>
+                </g>
+                <g class="map-pin" transform="translate(466 250)">
+                  <circle r="12"></circle><text y="4">5</text>
+                </g>
+                <g class="map-pin map-pin-scenic" transform="translate(358 178)">
+                  <circle r="10"></circle><text y="4">6</text>
+                </g>
+                <g class="map-pin map-pin-scenic" transform="translate(326 162)">
+                  <circle r="10"></circle><text y="4">7</text>
+                </g>
+                <g class="map-pin map-pin-scenic" transform="translate(274 139)">
+                  <circle r="10"></circle><text y="4">8</text>
+                </g>
+                <g class="map-pin map-pin-scenic" transform="translate(214 128)">
+                  <circle r="10"></circle><text y="4">9</text>
+                </g>
+                <g class="map-pin map-pin-scenic" transform="translate(154 94)">
+                  <circle r="10"></circle><text y="4">10</text>
+                </g>
+              </svg>
+              <div class="map-label map-label-1">Calgary</div>
+              <div class="map-label map-label-2">Canmore</div>
+              <div class="map-label map-label-3">Banff</div>
+              <div class="map-label map-label-4">Lake Louise</div>
+              <div class="map-label map-label-5">Moraine Lake</div>
+              <div class="map-label map-label-6">Bow Lake</div>
+              <div class="map-label map-label-7">Peyto Lake</div>
+              <div class="map-label map-label-8">Mistaya Canyon</div>
+              <div class="map-label map-label-9">Columbia Icefield</div>
+              <div class="map-label map-label-10">Athabasca corridor</div>
+              <div class="route-map-caption">
+                <strong>Offline note:</strong> use the map downloads below for exact importable pins. This embed is for quick orientation.
+              </div>
+            </div>
+            <div class="viewpoint-gallery" aria-label="Route viewpoint previews">
+              <article class="viewpoint-card">
+                <img src="../assets/thumb-lake.svg" alt="Turquoise lake viewpoint preview">
+                <div>
+                  <span class="badge badge-must">Lake day</span>
+                  <h3>Lake Louise + Moraine Lake</h3>
+                  <p>Keep shuttle timing, pickup points, and return windows visible before you drive.</p>
+                </div>
+              </article>
+              <article class="viewpoint-card">
+                <img src="../assets/thumb-glacier.svg" alt="Glacier viewpoint preview">
+                <div>
+                  <span class="badge badge-farther">Scenic drive</span>
+                  <h3>Icefields Parkway</h3>
+                  <p>Save Bow Lake, Peyto Lake, Mistaya Canyon, and Columbia Icefield offline.</p>
+                </div>
+              </article>
+              <article class="viewpoint-card">
+                <img src="../assets/thumb-waterfall.svg" alt="Waterfall viewpoint preview">
+                <div>
+                  <span class="badge badge-time">If time</span>
+                  <h3>Jasper corridor stops</h3>
+                  <p>Add Tangle Falls, Sunwapta, or Athabasca only if the return drive still works.</p>
+                </div>
+              </article>
             </div>
           </div>
 
           <div class="route-summary">
-            <div class="route-timeline-card">
-              <h3>Route timeline</h3>
-              <ol class="route-leg-timeline">
-                <li>
-                  <span class="route-leg-day">Arrive</span>
-                  <div>
-                    <strong>Toronto -> Calgary -> Canmore</strong>
-                    <p>Land, pick up the car, grab supplies, and settle into Canmore as the main base.</p>
-                  </div>
-                </li>
-                <li>
-                  <span class="route-leg-day">Day 1</span>
-                  <div>
-                    <strong>Canmore -> Banff loop</strong>
-                    <p>Use Banff town, Lake Minnewanka, and the Gondola as the flexible warm-up route.</p>
-                  </div>
-                </li>
-                <li>
-                  <span class="route-leg-day">Day 2</span>
-                  <div>
-                    <strong>Lake Louise + Moraine Lake</strong>
-                    <p>Prioritize shuttle or parking timing first, then keep the lake stops relaxed.</p>
-                  </div>
-                </li>
-                <li>
-                  <span class="route-leg-day">Day 3</span>
-                  <div>
-                    <strong>Icefields Parkway -> Columbia Icefield</strong>
-                    <p>Start early, save scenic stops offline, and leave room for weather or road delays.</p>
-                  </div>
-                </li>
-                <li>
-                  <span class="route-leg-day">Return</span>
-                  <div>
-                    <strong>Jasper corridor -> Calgary -> Airport</strong>
-                    <p>Use the final leg as a scenic reset and cut stops if timing gets tight.</p>
-                  </div>
-                </li>
-              </ol>
-            </div>
             <div class="route-points">
               <h3>Priority points to save</h3>
               <ul class="map-point-list">
@@ -213,9 +252,11 @@
       </section>
 
       <section id="days" class="page-section page-section-green">
+        <p class="section-kicker">Itinerary modules</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-days"></use></svg> Days to pick</h2>
         <div class="day-grid">
           <article class="day-card">
+            <span class="badge badge-time">Buffer</span>
             <h3>Arrival Day</h3>
             <p><strong>Route:</strong> Toronto -> Calgary</p>
             <p>Use this as a buffer day. Settle near Calgary and protect sleep.</p>
@@ -223,6 +264,7 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-time">City day</span>
             <h3>Calgary Day</h3>
             <p><strong>Plan:</strong> Calgary hot air balloon and Calgary circus / event.</p>
             <p>Keep the middle of the day flexible for food, supplies, and rest.</p>
@@ -231,6 +273,7 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-must">Transfer</span>
             <h3>Canmore Transfer Day</h3>
             <p><strong>Route:</strong> Calgary -> Canmore.</p>
             <p><strong>Plan:</strong> Kananaskis helicopter tour.</p>
@@ -238,6 +281,7 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-must">Booked stack</span>
             <h3>Banff Activity Day</h3>
             <p><strong>Plan:</strong> Lake Minnewanka Cruise, Open Top Touring, Banff Gondola.</p>
             <p>Stacked activity day. Protect check-in times and plan food before crowds hit.</p>
@@ -246,6 +290,7 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-must">Shuttle first</span>
             <h3>Lake Louise + Moraine Lake Day</h3>
             <p><strong>Plan:</strong> Moraine Lake shuttle, Lake Louise shuttle, flexible return.</p>
             <p>Verify exact pickup point, parking lot, check-in rules, and return window.</p>
@@ -253,6 +298,7 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-farther">Long drive</span>
             <h3>Icefields Parkway Day</h3>
             <p><strong>Plan:</strong> Peyto Lake, Columbia Icefield Adventure / Skywalk, scenic stops.</p>
             <p>Fill fuel first. Keep stops realistic and do not rely on cell signal.</p>
@@ -260,12 +306,14 @@
           </article>
 
           <article class="day-card">
+            <span class="badge badge-time">Return</span>
             <h3>Return to Calgary Day</h3>
             <p><strong>Route:</strong> Icefields/Jasper area -> Calgary.</p>
             <p>Use this as a scenic reset day. Add Zipline Mount Norquay only if timing works.</p>
           </article>
 
           <article class="day-card">
+            <span class="badge badge-time">Simple</span>
             <h3>Airport Day</h3>
             <p><strong>Route:</strong> Calgary -> Airport.</p>
             <p>Keep this simple. Avoid mountain driving unless absolutely necessary.</p>
@@ -274,6 +322,7 @@
       </section>
 
       <section id="book" class="page-section">
+        <p class="section-kicker">Conversion cards</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-book"></use></svg> Activities to book or verify</h2>
         <p>Use these as activity references, not fixed personal timings. Book with the confirmed provider and screenshot every reservation.</p>
         <div class="link-list">
@@ -289,6 +338,7 @@
       </section>
 
       <section class="page-section page-section-cool">
+        <p class="section-kicker">Backup plan</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-rain"></use></svg> Rainy day activities</h2>
         <ul class="list-compact">
           <li>Banff Upper Hot Springs.</li>
@@ -301,6 +351,7 @@
       </section>
 
       <section class="page-section">
+        <p class="section-kicker">Trip stack</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-apps"></use></svg> Apps to use</h2>
         <ul class="list-ruled">
           <li>Google Maps or Apple Maps: download offline areas before leaving Calgary/Canmore.</li>
@@ -313,6 +364,7 @@
       </section>
 
       <section id="food" class="page-section page-section-green">
+        <p class="section-kicker">Decision guide</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-food"></use></svg> Food, coffee, hangouts, and bars by location</h2>
         <p>Use this as a shortlist, not a fixed reservation plan. Check current hours, seasonal openings, reservations, and live waits before going.</p>
         <div class="food-guide-grid">
@@ -374,6 +426,7 @@
       </section>
 
       <section class="page-section page-section-warm">
+        <p class="section-kicker">Risk controls</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-parking"></use></svg> Parking and shuttle notes</h2>
         <p class="warning">Do not assume parking and park entry are the same thing. Parking, shuttles, reservations, and activities may be separate.</p>
         <ul class="list-ruled">
@@ -385,6 +438,7 @@
       </section>
 
       <section id="maps" class="page-section">
+        <p class="section-kicker">Download center</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-map"></use></svg> Viewpoints and map downloads</h2>
         <p>Approximate pins are included for import into compatible map apps. Verify exact trailheads, parking, and shuttle locations before driving.</p>
         <div class="link-list">
@@ -394,6 +448,7 @@
       </section>
 
       <section class="page-section page-section-cool">
+        <p class="section-kicker">Scenic pipeline</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-diamond"></use></svg> Icefields Parkway stops</h2>
         <p>Use this as a south-to-north visual timeline. The map links open Google Maps; still verify exact parking, trailheads, and road conditions before driving.</p>
         <div class="timeline">
@@ -470,6 +525,7 @@
       </section>
 
       <section id="pack" class="page-section">
+        <p class="section-kicker">Packing checklist</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-pack"></use></svg> Essentials to pack</h2>
         <ul class="list-check">
           <li>Warm layer, rain shell, comfortable walking shoes.</li>
@@ -483,6 +539,7 @@
       </section>
 
       <section class="page-section">
+        <p class="section-kicker">Trail options</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-trail"></use></svg> Best trails to consider</h2>
         <div class="trail-grid">
           <article class="trail-card">
@@ -552,6 +609,7 @@
       </section>
 
       <section class="page-section page-section-warm">
+        <p class="section-kicker">Safety kit</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-firstaid"></use></svg> First aid kit</h2>
         <ul class="list-check">
           <li>Bandages, blister pads, gauze, medical tape.</li>
@@ -565,6 +623,7 @@
       </section>
 
       <section class="page-section">
+        <p class="section-kicker">Preset routes</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-mix"></use></svg> Mix-and-match plans</h2>
         <ul class="list-ruled">
           <li><strong>Classic first-timer:</strong> Lake Minnewanka, Banff Gondola, Moraine Lake, Lake Louise, Peyto Lake, Columbia Icefield.</li>
@@ -576,11 +635,13 @@
       </section>
 
       <section class="page-section page-section-green">
+        <p class="section-kicker">Live wait strategy</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-food"></use></svg> Before food or crowded spots</h2>
         <p>Mountain towns get crowded fast, especially around lunch, dinner, cafes, and popular downtown areas. Before heading out, use NoWaitsy to check nearby places, avoid long waits, and make faster decisions.</p>
       </section>
 
       <section class="page-section page-section-warm">
+        <p class="section-kicker">Avoidable mistakes</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-warn"></use></svg> Mistakes to avoid</h2>
         <ul class="list-compact">
           <li>Do not rely on cell signal on Icefields Parkway.</li>
@@ -647,6 +708,7 @@
       </section>
 
       <section id="verify" class="page-section">
+        <p class="section-kicker">Source checklist</p>
         <h2><svg class="icon" aria-hidden="true"><use href="#icon-source"></use></svg> Sources to verify</h2>
         <p>Use community references for planning patterns, but verify official rules, fees, closures, shuttles, and passes before final use.</p>
         <ul>
@@ -657,7 +719,8 @@
           <li><a href="https://www.reddit.com/r/Banff/comments/1t1dvj9/banff_summer_faq_2026/" target="_blank" rel="noopener noreferrer">Reddit community FAQ</a></li>
         </ul>
       </section>
-    </main>
+      </main>
+    </div>
 
     <footer>
       <p>Save this before your Banff trip. Follow <a href="https://www.instagram.com/escapewith.ady/" target="_blank" rel="noopener noreferrer">@escapewith.ady</a> for more routes, parking notes, and real trip breakdowns.</p>

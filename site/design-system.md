@@ -1,14 +1,40 @@
-# EscapeWith.Ady Guide Design System
+# EscapeWith.Ady Internal Guide Design System
 
-This is a Rockies field-guide design system for the Banff + Rockies guide website. The goal is to keep the guide readable on mobile, printable as a PDF, and easy to maintain while giving it a stronger mountain-route identity.
+This is the internal style guide for the Banff + Rockies guide website. It should not be exposed as a public page. The public guide should feel like a polished SaaS planning product: clear hero value, high-contrast cards, labels, tags, CTA hierarchy, compact sections, and reusable decision components.
 
 ## Design Principles
 
-- Field-guide first: practical layouts, map-like accents, calm alpine colors, and no heavy decoration.
-- Travel utility over marketing: every section should help someone plan, verify, save, or decide.
+- SaaS travel utility: every section should look like a useful product surface, not a plain article.
+- Decision first: sections should help someone plan, verify, save, book, compare, or decide.
+- Clear hierarchy: use eyebrow labels, section kickers, cards, metrics, badges, and CTAs to make the guide scannable.
 - Offline safe: system fonts, inline SVG icons, local CSS, local map files.
 - Accessible by default: semantic headings, visible focus rings, high contrast, icons marked decorative.
 - Print friendly: website content should export cleanly through browser "Save as PDF".
+
+## Color System
+
+Use this palette for the public UI. Keep contrast high and avoid publishing a visible style-guide page.
+
+| Role | Token | Hex | Use |
+| --- | --- | --- | --- |
+| Ink | `--color-ink` | `#0f2522` | Primary body text |
+| Strong ink | `--color-accent-strong` | `#0f2f2b` | Headings, primary CTA base, high-emphasis labels |
+| Primary | `--color-accent` | `#166f61` | Buttons, active states, success/route accents |
+| Signal | `--color-link` | `#0b7b94` | Links, secondary action accents, informational badges |
+| Warm action | `--color-trail` / `--color-warning-line` | `#b65f22` | Warnings, long-drive labels, verification emphasis |
+| Canvas | `--color-page` | `#f6faf8` | Page background |
+| Surface | `--color-surface` | `#ffffff` | Cards and panels |
+| Soft primary | `--color-accent-soft` | `#dff1eb` | Selected chips, low-emphasis badges |
+| Soft signal | `--color-signal-soft` | `#e4f5f8` | Informational panels |
+| Warning | `--color-warning` | `#fff4dc` | Verify-before-trip warnings |
+
+Contrast rules:
+
+- Primary text should use `--color-ink` on white, canvas, soft green, or soft signal surfaces.
+- Primary CTAs should use white text on the evergreen gradient from `--color-accent-strong` to `--color-accent`.
+- Warning panels should use dark text, warm background, and `--color-warning-line` borders.
+- Links should keep visible underlines or strong context, and use `--color-link`.
+- Badges should never rely on color alone; the label text must carry the meaning.
 
 ## Tokens
 
@@ -20,10 +46,10 @@ Colors:
 - `--color-muted`: secondary text.
 - `--color-line`: borders and dividers.
 - `--color-surface`: white content surface.
-- `--color-page`: alpine page background.
+- `--color-page`: light SaaS canvas background.
 - `--color-surface-soft`: subtle cards and callouts.
-- `--color-surface-cool`: glacier-blue section surfaces.
-- `--color-surface-green`: soft evergreen section surfaces.
+- `--color-surface-cool`: informational blue-green section surfaces.
+- `--color-surface-green`: soft primary section surfaces.
 - `--color-warning`: cautious verification notes.
 - `--color-warning-line`: warning borders.
 - `--color-accent`: icons, brand rule, hover accents.
@@ -33,6 +59,7 @@ Colors:
 - `--color-trail`: route and earth accent.
 - `--color-snow`: warm white card surface.
 - `--color-ridge`: muted mountain/ridge surface.
+- `--color-signal-soft`: informational panel surface.
 - `--shadow-card` and `--shadow-subtle`: restrained depth for screen only.
 
 Typography:
@@ -59,18 +86,22 @@ Shape and borders:
 Header:
 
 - Use `.site-header` for the guide cover area.
-- Keep one brand line, one `h1`, one subtitle, one short note, and one primary action.
-- Header styling should feel like a quiet map cover: strong title, route subtitle, and subtle ridge accents.
+- Use `.hero-layout`, `.hero-copy`, and `.hero-panel` for the SaaS-style hero.
+- Keep one brand line, one eyebrow, one `h1`, one summary, one route chip list, one primary action, and one secondary action.
+- The hero panel should show useful proof/summary metrics, not decorative filler.
 
 Buttons:
 
 - Use `.button` for actions.
+- Use `.button-secondary` for secondary public CTAs.
+- Avoid more than two hero CTAs unless the extra action is essential.
 - Add `.no-print` when the control should not appear in exported PDFs.
 
 Sections:
 
 - Use semantic `section` elements.
 - Each section should start with an `h2` containing an inline SVG icon.
+- Add `.section-kicker` above major headings to make sections feel productized and scannable.
 - Icons are decorative and should use `aria-hidden="true"`.
 - Add `.page-section` to guide sections.
 - Add `.page-section-cool`, `.page-section-green`, or `.page-section-warm` when a section needs a subtle colored page band.
@@ -88,8 +119,16 @@ Cards:
 
 - Use `.day-grid` for two-column card layouts.
 - Use `.day-card` for route/day modules.
+- Add a `.badge` at the top of day cards when the card has a clear status such as `Buffer`, `Booked stack`, `Shuttle first`, or `Long drive`.
 - Use `.food-guide-grid` and `.food-guide-card` for location-based food, coffee, hangout, and bar recommendations.
 - Keep card headings short and details scannable.
+
+Badges:
+
+- Use `.badge-must` for important/required planning items.
+- Use `.badge-time` for flexible or timing-related items.
+- Use `.badge-farther` for long-drive, conditional, or extra-distance items.
+- Badge text must be specific enough to make sense without color.
 
 Links:
 
